@@ -171,7 +171,7 @@ export default function App() {
 
         {/* FOOTER */}
         <footer className="p-4 sm:p-6 bg-slate-100 border-t flex flex-col md:flex-row justify-between items-center text-[9px] sm:text-[10px] text-slate-500 mt-auto gap-2 md:gap-0 text-center md:text-left">
-          <p>© 2024 SOY CANCÚN BRASIL - TODOS OS DIREITOS RESERVADOS</p>
+          <p>© 2026 SOY CANCÚN BRASIL - TODOS OS DIREITOS RESERVADOS</p>
           <p className="font-bold flex items-center gap-1 justify-center relative z-10 bg-slate-100">
             ESTE ROTEIRO É CONFIDENCIAL 
             <span className="w-1 h-1 bg-slate-400 rounded-full mx-1"></span> 
