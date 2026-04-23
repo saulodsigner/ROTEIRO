@@ -35,7 +35,7 @@ export default function App() {
             <span className="text-lg sm:text-xl leading-none">⏱️</span>
             <div>
               <p className="text-[9px] sm:text-[10px] uppercase font-bold text-amber-800 tracking-wider">Tempo</p>
-              <p className="text-[11px] sm:text-xs text-amber-900 mt-0.5">45 a 55 segundos.</p>
+              <p className="text-[11px] sm:text-xs text-amber-900 mt-0.5">40 a 45 segundos.</p>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row items-start gap-2 break-inside-avoid">
@@ -75,95 +75,74 @@ export default function App() {
             {/* BLOCO 1 */}
             <div className="flex flex-col md:grid md:grid-cols-12 gap-2 md:gap-4 items-stretch border-b border-slate-100 py-3 md:py-4 break-inside-avoid">
               <div className="md:col-span-1 font-mono text-amber-600 font-bold text-[10px] md:text-xs flex items-center md:items-start gap-2 md:gap-0">
-                <span className="bg-amber-100 px-1.5 py-0.5 rounded md:bg-transparent md:px-0 md:py-0">0s - 3s</span>
+                <span className="bg-amber-100 px-1.5 py-0.5 rounded md:bg-transparent md:px-0 md:py-0">0s - 5s</span>
                 <span className="md:hidden text-slate-900 font-bold text-[11px] uppercase ml-auto">01: Gancho</span>
               </div>
               <div className="hidden md:block md:col-span-1 text-slate-900 font-bold text-xs uppercase">01: Gancho</div>
               <div className="md:col-span-5 bg-white p-3 sm:p-4 rounded border-l-4 border-amber-500 shadow-sm mt-1 md:mt-0">
                 <p className="text-[11px] sm:text-xs leading-relaxed text-slate-800">
-                  👁️ <span className="font-semibold italic">Ação:</span> Comece caminhando um passo em direção à câmera, ajeite o cabelo ou óculos.<br/>
+                  👁️ <span className="font-semibold italic">Ação:</span> Ela de frente para a câmera, com um sorriso misterioso/confiante.<br/>
                   <br/>
-                  📱 <span className="font-semibold text-blue-600 flex mt-1">Edit: "O segredo para ser VIP no México (sem gastar fortunas)."</span>
+                  📱 <span className="font-semibold text-blue-600 flex mt-1">Edit: 2s rápidos de fotos bonitas de Cancún passando na tela e volta pro rosto dela. Texto: "O que as fotos de Cancún não te contam."</span>
                 </p>
               </div>
               <div className="md:col-span-5 flex items-center bg-slate-900 text-slate-100 p-4 rounded font-serif italic text-sm md:text-[15px] leading-snug">
-                "Como ser tratado como um verdadeiro VIP aqui em Cancún, sem precisar gastar uma fortuna a mais por isso?"
+                "As fotos de Cancún na internet escondem um detalhe que dita exatamente se a sua viagem vai ser incrível ou cansativa."
               </div>
             </div>
 
             {/* BLOCO 2 */}
             <div className="flex flex-col md:grid md:grid-cols-12 gap-2 md:gap-4 items-stretch border-b border-slate-100 py-3 md:py-4 break-inside-avoid">
               <div className="md:col-span-1 font-mono text-amber-600 font-bold text-[10px] md:text-xs flex items-center md:items-start gap-2 md:gap-0">
-                <span className="bg-amber-100 px-1.5 py-0.5 rounded md:bg-transparent md:px-0 md:py-0">3s - 15s</span>
-                <span className="md:hidden text-slate-900 font-bold text-[11px] uppercase ml-auto">02: Conexão</span>
+                <span className="bg-amber-100 px-1.5 py-0.5 rounded md:bg-transparent md:px-0 md:py-0">5s - 15s</span>
+                <span className="md:hidden text-slate-900 font-bold text-[11px] uppercase ml-auto">02: O Insight</span>
               </div>
-              <div className="hidden md:block md:col-span-1 text-slate-900 font-bold text-xs uppercase">02: Conexão</div>
+              <div className="hidden md:block md:col-span-1 text-slate-900 font-bold text-xs uppercase">02: O Insight</div>
               <div className="md:col-span-5 bg-white p-3 sm:p-4 rounded border-l-4 border-slate-300 shadow-sm mt-1 md:mt-0">
                 <p className="text-[11px] sm:text-xs leading-relaxed text-slate-800">
-                  👁️ <span className="font-semibold italic">Ação:</span> Você agora está parada, com uma postura elegante e um sorriso leve.<br/>
-                  <br/>
-                  📱 <span className="font-semibold text-blue-600 flex mt-1">Edit: Vídeo de fundo rápido mostrando turistas espremidos em filas.</span>
+                  👁️ <span className="font-semibold italic">Ação:</span> Corte de câmera mais próximo (sutil). Ela usa as mãos para explicar.
                 </p>
               </div>
               <div className="md:col-span-5 flex items-center bg-slate-900 text-slate-100 p-4 rounded font-serif italic text-sm md:text-[15px] leading-snug">
-                "Todo mundo que planeja uma viagem pra Cancún quer exclusividade. Mas a verdade é que muitos turistas acabam vivendo aquela mesma experiência padronizada, sem profundidade e emoção."
+                "A gente sempre acha que o segredo de uma viagem perfeita é apenas escolher um resort maravilhoso e a praia mais bonita. Mas a verdadeira mágica do Caribe acontece no ritmo do seu roteiro."
               </div>
             </div>
 
             {/* BLOCO 3 */}
             <div className="flex flex-col md:grid md:grid-cols-12 gap-2 md:gap-4 items-stretch border-b border-slate-100 py-3 md:py-4 break-inside-avoid">
               <div className="md:col-span-1 font-mono text-amber-600 font-bold text-[10px] md:text-xs flex items-center md:items-start gap-2 md:gap-0">
-                <span className="bg-amber-100 px-1.5 py-0.5 rounded md:bg-transparent md:px-0 md:py-0">15s - 30s</span>
-                <span className="md:hidden text-slate-900 font-bold text-[11px] uppercase ml-auto">03: Revelação</span>
+                <span className="bg-amber-100 px-1.5 py-0.5 rounded md:bg-transparent md:px-0 md:py-0">15s - 35s</span>
+                <span className="md:hidden text-slate-900 font-bold text-[11px] uppercase ml-auto">03: Fator 'Uau'</span>
               </div>
-              <div className="hidden md:block md:col-span-1 text-slate-900 font-bold text-xs uppercase">03: Revelação</div>
-              <div className="md:col-span-5 bg-white p-3 sm:p-4 rounded border-l-4 border-amber-500 shadow-sm mt-1 md:mt-0">
+              <div className="hidden md:block md:col-span-1 text-slate-900 font-bold text-xs uppercase">03: Fator 'Uau'</div>
+              <div className="md:col-span-5 bg-white p-3 sm:p-4 rounded border-l-4 border-slate-300 shadow-sm mt-1 md:mt-0">
                 <p className="text-[11px] sm:text-xs leading-relaxed text-slate-800">
-                  👁️ <span className="font-semibold italic">Ação:</span> A câmera dá um zoom leve. Gesticule com as mãos para demonstrar firmeza.<br/>
+                  👁️ <span className="font-semibold italic">Ação:</span> Tom de voz acolhedor.<br/>
                   <br/>
-                  📱 <span className="font-semibold text-blue-600 flex mt-1">Edit: "Acesso Local."</span>
+                  📱 <span className="font-semibold text-blue-600 flex mt-1">Edit: Colocar cenas leves de um transfer chegando e pessoas relaxando em um barco.</span>
                 </p>
               </div>
               <div className="md:col-span-5 flex items-center bg-slate-900 text-slate-100 p-4 rounded font-serif italic text-sm md:text-[15px] leading-snug">
-                "Na Soy Cancún, o nosso maior diferencial não é apenas te entregar ingressos. É te dar Acesso Local. E é exatamente por isso que nós fazemos questão de operar com guias nativos mexicanos."
+                "É saber intercalar um dia de parque intenso, de muita caminhada, com um dia de relaxamento total navegando por Isla Mujeres. Ter a inteligência de uma logística pontual te esperando, sem você precisar pesquisar rotas. O maior conforto de uma viagem não é uma cama de hotel, é a paz de espírito de acordar sabendo que a sua única tarefa do dia é aproveitar."
               </div>
             </div>
 
             {/* BLOCO 4 */}
-            <div className="flex flex-col md:grid md:grid-cols-12 gap-2 md:gap-4 items-stretch border-b border-slate-100 py-3 md:py-4 break-inside-avoid">
-              <div className="md:col-span-1 font-mono text-amber-600 font-bold text-[10px] md:text-xs flex items-center md:items-start gap-2 md:gap-0">
-                <span className="bg-amber-100 px-1.5 py-0.5 rounded md:bg-transparent md:px-0 md:py-0">30s - 42s</span>
-                <span className="md:hidden text-slate-900 font-bold text-[11px] uppercase ml-auto">04: Argumento</span>
-              </div>
-              <div className="hidden md:block md:col-span-1 text-slate-900 font-bold text-xs uppercase">04: Argumento</div>
-              <div className="md:col-span-5 bg-white p-3 sm:p-4 rounded border-l-4 border-slate-300 shadow-sm mt-1 md:mt-0">
-                <p className="text-[11px] sm:text-xs leading-relaxed text-slate-800">
-                  👁️ <span className="font-semibold italic">Ação:</span> Continue falando com brilho nos olhos.<br/>
-                  <br/>
-                  📱 <span className="font-semibold text-blue-600 flex mt-1">Edit: Cobrir o rosto por 2s com imagens de um guia mexicano sorrindo com clientes em lugar lindo.</span>
-                </p>
-              </div>
-              <div className="md:col-span-5 flex items-center bg-slate-900 text-slate-100 p-4 rounded font-serif italic text-sm md:text-[15px] leading-snug">
-                "O nativo tem a chave da cidade. Eles conhecem os atalhos nos parques que ninguém te conta, sabem a hora exata que o cenote está mais vazio e têm o respeito de todos os locais. Você recebe a verdadeira hospitalidade mexicana e a imersão na cultura, mas com toda a segurança, organização e suporte da nossa equipe."
-              </div>
-            </div>
-
-            {/* BLOCO 5 */}
             <div className="flex flex-col md:grid md:grid-cols-12 gap-2 md:gap-4 items-stretch py-3 md:py-4 bg-amber-100/50 rounded-lg p-2 sm:p-2 break-inside-avoid border border-amber-200/50">
               <div className="md:col-span-1 font-mono text-amber-600 font-bold text-[10px] md:text-xs flex items-center md:items-start gap-2 md:gap-0 mt-1 md:mt-2">
-                <span className="bg-amber-200 px-1.5 py-0.5 rounded md:bg-transparent md:px-0 md:py-0">42s - 50s</span>
-                <span className="md:hidden text-slate-900 font-bold text-[11px] uppercase ml-auto">05: CTA</span>
+                <span className="bg-amber-200 px-1.5 py-0.5 rounded md:bg-transparent md:px-0 md:py-0">35s - 45s</span>
+                <span className="md:hidden text-slate-900 font-bold text-[11px] uppercase ml-auto">04: Venda</span>
               </div>
-              <div className="hidden md:block md:col-span-1 text-slate-900 font-bold text-xs uppercase mt-1 md:mt-2">05: CTA</div>
+              <div className="hidden md:block md:col-span-1 text-slate-900 font-bold text-xs uppercase mt-1 md:mt-2">04: Venda</div>
               <div className="md:col-span-5 bg-white p-3 sm:p-4 rounded border-l-4 border-amber-500 shadow-sm mt-1 md:mt-0">
                 <p className="text-[11px] sm:text-xs leading-relaxed text-slate-800">
-                  👁️ <span className="font-semibold italic">Ação:</span> Aponte o dedo para baixo (direcionando o olhar do cliente para a legenda e comentários).<br/>
+                  👁️ <span className="font-semibold italic">Ação:</span> Sorriso aberto, apontando levemente para a legenda.<br/>
                   <br/>
-                  📱 <span className="font-semibold text-blue-600 flex mt-1">Edit: "Clique no Link da Bio."</span>
+                  📱 <span className="font-semibold text-blue-600 flex mt-1">Edit: Texto na tela: "Viaje com inteligência."</span>
                 </p>
               </div>
               <div className="md:col-span-5 flex items-center bg-slate-900 text-slate-100 p-4 rounded font-serif italic text-sm md:text-[15px] leading-snug">
-                "Você não cruzou o oceano para ser só mais um turista. Você veio para viver o México de verdade. Clica no link da minha bio, ou comenta 'ROTEIRO' aqui embaixo, e vamos planejar a sua viagem com exclusividade."
+                "E é exatamente essa organização inteligente que a nossa equipe faz por você. Se você quer viver as melhores férias da sua vida com zero preocupação, clica no link da bio e vamos desenhar a sua viagem."
               </div>
             </div>
           </div>
